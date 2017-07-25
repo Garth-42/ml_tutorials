@@ -98,8 +98,8 @@ Toy Example Codes in this Directory:
 	python 4_binaryclass_with_oversampling.py X.binary y.binary
 
 	This demonstrates fitting a KNeighborsClassifier model with 3 different
-	undersampling methods plus the original unbalanced data. All three are
-	plotted as ROC curves to show how the different undersampling methods
+	oversampling methods plus the original unbalanced data. All three are
+	plotted as ROC curves to show how the different oversampling methods
 	perform on the data. Specifically Random Oversampling, SMOTE and ADASYN.
 
 
