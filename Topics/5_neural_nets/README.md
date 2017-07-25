@@ -4,11 +4,12 @@ Fangfang Xia
 
 Topics:
 
-• Unsupervised learning
-• Supervised Learning
+* Unsupervised learning
+* Supervised Learning
 
 We will be using examples from the Keras framework.
 Keras can be installed/updated with:
+
 `pip install -U keras`
 
 Hands-on:
