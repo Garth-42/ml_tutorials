@@ -64,6 +64,26 @@ False Positives are when something is predicted to be A but in fact is B
 False Negatives are when something is predicted to be B but in fact is A
 
 
+Note on the data files: There are two data sets. The set named X.little.unb and y.little.unb have multiple classes of data. They are very small and minimally unbalanced. They are meant to simply allow the multiclass codes to run. The sets named X.binary and y.binary represent a binary classification problem. The two classes are unbalanced by an order of 10. If you want to see the number of different classes in each of the sets, run the unix sort and uniq commands on the y.binary and y.little.unb files.
+
+X.binary
+y.binary
+
+X.little.unb
+y.little.unb
+
+y.binary
+counts class
+  56    0
+ 587    1
+
+y.little.unb
+counts  class
+  20     1
+  20     2
+  20     3
+  18     4
+
 
 Toy Example Codes in this Directory:
 
